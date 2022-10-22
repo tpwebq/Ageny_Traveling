@@ -1,16 +1,58 @@
 $prefix: "../";
+$color__black: #1c1b20;
 $color__blue: #009cff;
 $footer-height: 33px;
+$img__agency: 
+    $prefix+"img/agency/agency-s1.jpg",
+    $prefix+"img/agency/agency-s2.jpg";
+$img__agency--v: 
+    $prefix+"img/agency/agency-s1v.jpg",
+    $prefix+"img/agency/agency-s2v.jpg";
+$img__basket: $prefix+"img/basket/basket-s1.jpg";
+$img__contact: 
+    $prefix+"img/contact-s1.jpg",
+    $prefix+"img/contact-s2.jpg",
+    $prefix+"img/contact-s3.jpg";
 $img__comingsoon: $prefix+"img/comingsoon.jpg";
+$img__contact: 
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg";
+$img__contact--v: 
+    $prefix+"img/contact/contact-s1v.jpg",
+    $prefix+"img/contact/contact-s2v.jpg";
 $img__error: $prefix+"img/error.jpg";
+$img__index: $prefix+"img/index/index-s1.jpg";
+$img__index--v: $prefix+"img/index/index-s1v.jpg";
+$img__order: $prefix+"img/basket/basket-s1.jpg";
 $img__privacy: $prefix+"img/privacy.jpg";
+$img__tours: 
+    $prefix+"img/tours/tours-s1.jpg",
+    $prefix+"img/tours/tours-s2.jpg";
 $img__aoa:
+    $img__agency,
+    $img__basket,
     $img__comingsoon,
+    $img__contact,
     $img__error,
-    $img__privacy;
+    $img__index,
+    $img__order,
+    $img__privacy,
+    $img__tours;
+$img__aoa--v:
+    $img__index--v,
+    $img__agency--v;
 $img__classes:
+    "agency",
+    "basket",
     "comingsoon",
+    "contact",
     "error",
-    "privacy";
+    "index",
+    "order",
+    "privacy",
+    "tours";
+$img__classes--v:
+    "index",
+    "agency";
 $logo__height: 40px;
 $text__shadow: 1px 1px 3px #333;

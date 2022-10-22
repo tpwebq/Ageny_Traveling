@@ -1,7 +1,19 @@
 @include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
-
-
+@media all and (max-width: 991px), all and (orientation: portrait){
+    @include aoa-bg-series($img__classes--v,$img__aoa--v,0,"center","cover","scroll");
+    .agency{
+        &-s1,&-s2{
+            background-position-y: 40%!important;
+        }
+    }
+}
+*{
+    font-family: "Raleway";
+}
 .bg{
+    &-black{
+        background-color: $color__black!important;
+    }
     &-blue{
         background-color: $color__blue!important;
     }
@@ -29,6 +41,11 @@
         text-shadow: $text__shadow;
     }
 }
+.tours{
+    &-s1{
+        background-position-y: bottom!important;
+    }
+}
 header{
     z-index: 10;
 }
@@ -39,8 +56,8 @@ textarea{
     .navbar{
         &-nav{
             backdrop-filter: blur(5px); 
-            background-color: #fff;
-            border: 1px solid #999;
+            background-color: #009eff;
+            border: 1px solid darken(#009eff,30%);
             opacity: 0.9;
             padding: 10px;
         }

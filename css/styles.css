@@ -1,3 +1,7 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
 /* line 2, ../sass/partials/_minh.scss */
 .minh-auto {
   min-height: auto;
@@ -291,9 +295,54 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.agency-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/agency/agency-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.agency-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/agency/agency-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.basket-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/basket/basket-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .comingsoon-s1 {
   background-attachment: scroll;
   background-image: url(../img/comingsoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.contact-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/contact/contact-s2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -309,6 +358,24 @@ body, html {
 }
 
 /* line 31, ../sass/partials/_mixins.scss */
+.index-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/index/index-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.order-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/basket/basket-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
 .privacy-s1 {
   background-attachment: scroll;
   background-image: url(../img/privacy.jpg);
@@ -317,51 +384,116 @@ body, html {
   background-size: cover;
 }
 
-/* line 5, ../sass/partials/_modules.scss */
+/* line 31, ../sass/partials/_mixins.scss */
+.tours-s1 {
+  background-attachment: scroll;
+  background-image: url(../img/tours/tours-s1.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* line 31, ../sass/partials/_mixins.scss */
+.tours-s2 {
+  background-attachment: scroll;
+  background-image: url(../img/tours/tours-s2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media all and (max-width: 991px), all and (orientation: portrait) {
+  /* line 31, ../sass/partials/_mixins.scss */
+  .index-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/index/index-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .agency-s1 {
+    background-attachment: scroll;
+    background-image: url(../img/agency/agency-s1v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 31, ../sass/partials/_mixins.scss */
+  .agency-s2 {
+    background-attachment: scroll;
+    background-image: url(../img/agency/agency-s2v.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /* line 5, ../sass/partials/_modules.scss */
+  .agency-s1, .agency-s2 {
+    background-position-y: 40% !important;
+  }
+}
+/* line 10, ../sass/partials/_modules.scss */
+* {
+  font-family: "Raleway";
+}
+
+/* line 14, ../sass/partials/_modules.scss */
+.bg-black {
+  background-color: #1c1b20 !important;
+}
+/* line 17, ../sass/partials/_modules.scss */
 .bg-blue {
   background-color: #009cff !important;
 }
 
-/* line 10, ../sass/partials/_modules.scss */
+/* line 22, ../sass/partials/_modules.scss */
 .border-blue {
   border-color: #009cff !important;
 }
 
-/* line 15, ../sass/partials/_modules.scss */
+/* line 27, ../sass/partials/_modules.scss */
 .navbar-logo {
   height: 40px;
 }
 
-/* line 20, ../sass/partials/_modules.scss */
+/* line 32, ../sass/partials/_modules.scss */
 .privacy-s1 {
   background-position-x: right !important;
 }
 
-/* line 25, ../sass/partials/_modules.scss */
+/* line 37, ../sass/partials/_modules.scss */
 .text-blue {
   color: #009cff !important;
 }
-/* line 28, ../sass/partials/_modules.scss */
+/* line 40, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #333;
 }
 
-/* line 32, ../sass/partials/_modules.scss */
+/* line 45, ../sass/partials/_modules.scss */
+.tours-s1 {
+  background-position-y: bottom !important;
+}
+
+/* line 49, ../sass/partials/_modules.scss */
 header {
   z-index: 10;
 }
 
-/* line 35, ../sass/partials/_modules.scss */
+/* line 52, ../sass/partials/_modules.scss */
 textarea {
   resize: none;
 }
 
 @media all and (max-width: 767px) {
-  /* line 40, ../sass/partials/_modules.scss */
+  /* line 57, ../sass/partials/_modules.scss */
   .navbar-nav {
     backdrop-filter: blur(5px);
-    background-color: #fff;
-    border: 1px solid #999;
+    background-color: #009eff;
+    border: 1px solid #003f66;
     opacity: 0.9;
     padding: 10px;
   }
